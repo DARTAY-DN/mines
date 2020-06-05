@@ -15,20 +15,20 @@ while score_not:
 		result = int(input('-> '))
 		resone = random.choice(['Верно', 'Неверно'])
 		if resone == 'Верно':
-			print('Win')
+			print('You Win')
 			score += 3
 			time.sleep(3)
 			print('У тебя ' + str(score) + ' Очка/ов')
 			time.sleep(1.5)
 			os.system('clear')
 		else:
-			print('Lose')
+			print('You Lose')
 			score -= 3
 			time.sleep(3)
 			print('У тебя ' + str(score) + ' Очка/ов')
 			time.sleep(1.5)
 			os.system('clear')
-			if score <= 0:
+			if score <= -1:
 				score_not = False
 				print('У тебя не осталось очков,Перезапусти игру!')
 	except ValueError:
