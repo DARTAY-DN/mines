@@ -15,6 +15,9 @@ while score_not:
 
 \033[35m[*] """)
 	os.system('clear')
+	if menu == ('3'):
+		author = input('''Author: vk
+		vk.com/creator_of_fortune_bot''')
 	if menu == ('2'):
 		settings = input("""{_________SETTINGS_________}
 [1] - Поменять язык """)
