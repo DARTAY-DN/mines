@@ -35,7 +35,7 @@ while score_not:
 				print('Шансы только от 1 до 9!')
 				score_not = False
 				score -= 9999999
-			if result <= 1:
+			if result <= 0:
 				print('Шансы только от 1 до 9!')
 				score_not = False
 				score -= 9999999
