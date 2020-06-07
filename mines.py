@@ -31,7 +31,7 @@ while score_not:
 		[ 7 ] [ 8 ] [ 9 ]''')
 		try:
 			result = int(input('-> '))
-			if result >= 9:
+			if result >= 10:
 				print('Шансы только от 1 до 9!')
 				score_not = False
 				score -= 9999999
